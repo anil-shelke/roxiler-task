@@ -134,9 +134,9 @@ function App() {
           <label htmlFor="inp">Search Transaction:</label>
           <input name='inp' onChange={(e) => setSearchValue(e.target.value)} type="number" placeholder='Enter the price' />
         </div>
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown</button>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <button className="dropbtn">Dropdown</button>
+          <div className="dropdown-content">
             <a onClick={() => setMonth(0)} href="#">Jan</a>
             <a onClick={() => setMonth(1)} href="#">feb</a>
             <a onClick={() => setMonth(2)} href="#">Mar</a>
@@ -154,7 +154,7 @@ function App() {
       </div>
 
       
-      <table class="table">
+      <table className="table">
         <thead>
           <tr>
             <th >No</th>
